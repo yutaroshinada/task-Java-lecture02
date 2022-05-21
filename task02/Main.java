@@ -5,35 +5,35 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         TicketsPrice general = new TicketsPrice("一般", 1900, "水曜日以外");
-        general.introduce();
+        general.showTicketInfo();
         System.out.println(general.getName() + "は" + general.getDay() + general.getPrice() + "円です。");
 
         TicketsPrice college = new TicketsPrice("大学生", 1500, "水曜日以外");
-        college.introduce();
+        college.showTicketInfo();
         System.out.println(college.getName() + "は" + college.getDay() + college.getPrice() + "円です。");
 
         TicketsPrice highschool = new TicketsPrice("高校生", 1000, "毎日");
-        highschool.introduce();
+        highschool.showTicketInfo();
         System.out.println(highschool.getName() + "は" + highschool.getDay() + highschool.getPrice() + "円です。");
 
         TicketsPrice jrhighschool = new TicketsPrice("中学生", 1000, "毎日");
-        jrhighschool.introduce();
+        jrhighschool.showTicketInfo();
         System.out.println(jrhighschool.getName() + "は" + jrhighschool.getDay() + jrhighschool.getPrice() + "円です。");
 
         TicketsPrice elementary = new TicketsPrice("小学生", 1000, "毎日");
-        elementary.introduce();
+        elementary.showTicketInfo();
         System.out.println(elementary.getName() + "は" + elementary.getDay() + elementary.getPrice() + "円です。");
 
         TicketsPrice child = new TicketsPrice("幼児", 1000, "毎日");
-        child.introduce();
+        child.showTicketInfo();
         System.out.println(child.getName() + "は" + child.getDay() + child.getPrice() + "円です。");
 
         TicketsPrice senior = new TicketsPrice("シニア", 1200, "毎日");
-        senior.introduce();
+        senior.showTicketInfo();
         System.out.println(senior.getName() + "は" + senior.getDay() + senior.getPrice() + "円です。");
 
         TicketsPrice disabledperson = new TicketsPrice("障がい者", 1000, "毎日");
-        disabledperson.introduce();
+        disabledperson.showTicketInfo();
         System.out.println(disabledperson.getName() + "は" + disabledperson.getDay() + disabledperson.getPrice() + "円です。");
 
 

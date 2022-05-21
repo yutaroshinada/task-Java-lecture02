@@ -36,7 +36,7 @@ public class TicketsPrice {
     }
 
 
-    public void introduce() {
+    public void showTicketInfo() {
         System.out.println("券種は、" + this.name + " " + "¥" + this.price + "です。");
     }
 }
